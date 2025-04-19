@@ -62,7 +62,7 @@
             </div>
         </section>
 
-       <%-- <!-- 2. Features Section -->
+        <!-- 2. Features Section -->
         <section id="features" class="py-5">
             <div class="container py-5">
                 <div class="text-center mb-5">
@@ -588,7 +588,7 @@
                     </div>
                 </div>
             </div>
-        </footer>--%>
+        </footer>
     </form>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
