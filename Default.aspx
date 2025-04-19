@@ -62,8 +62,8 @@
             </div>
         </section>
 
-       <%-- <!-- 2. Features Section -->
-        <section id="features" class="py-5">
+       <!-- 2. Features Section -->
+       <%-- <section id="features" class="py-5">
             <div class="container py-5">
                 <div class="text-center mb-5">
                     <h2 class="fw-bold mb-3">Why Choose Our Development Team?</h2>
@@ -126,10 +126,10 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section>--%>
 
         <!-- 3. Awards and Achievements Section -->
-        <section id="awards" class="awards-section py-5">
+        <%--<section id="awards" class="awards-section py-5">
             <div class="container py-5">
                 <div class="text-center mb-5">
                     <h2 class="fw-bold mb-3">Awards & Achievements</h2>
@@ -254,7 +254,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section>--%>
 
         <!-- 4. Projects Section -->
         <section id="projects" class="py-5 bg-light">
@@ -314,7 +314,7 @@
         </section>
 
         <!-- 5. Teams Section -->
-        <section id="team" class="team-section">
+       <%-- <section id="team" class="team-section">
             <div class="container py-5">
                 <div class="text-center mb-5">
                     <h2 class="fw-bold mb-3">Meet Our Expert Team</h2>
