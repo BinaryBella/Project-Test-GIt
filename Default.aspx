@@ -62,7 +62,7 @@
             </div>
         </section>
 
-       <%-- <!-- 2. Features Section -->
+        <!-- 2. Features Section -->
         <section id="features" class="py-5">
             <div class="container py-5">
                 <div class="text-center mb-5">
@@ -128,7 +128,7 @@
             </div>
         </section>
 
-        <!-- 3. Awards and Achievements Section -->
+       <%-- <!-- 3. Awards and Achievements Section -->
         <section id="awards" class="awards-section py-5">
             <div class="container py-5">
                 <div class="text-center mb-5">
