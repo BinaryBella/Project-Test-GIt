@@ -62,8 +62,8 @@
             </div>
         </section>
 
-       <%-- <!-- 2. Features Section -->
-        <section id="features" class="py-5">
+        <!-- 2. Features Section -->
+        <%--<section id="features" class="py-5">
             <div class="container py-5">
                 <div class="text-center mb-5">
                     <h2 class="fw-bold mb-3">Why Choose Our Development Team?</h2>
@@ -311,23 +311,23 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section>--%>
 
-        <!-- 5. Teams Section -->
+        <!-- 5. teams section -->
         <section id="team" class="team-section">
             <div class="container py-5">
                 <div class="text-center mb-5">
-                    <h2 class="fw-bold mb-3">Meet Our Expert Team</h2>
-                    <p class="lead text-muted">The talented professionals behind our innovative solutions</p>
+                    <h2 class="fw-bold mb-3">meet our expert team</h2>
+                    <p class="lead text-muted">the talented professionals behind our innovative solutions</p>
                 </div>
                 <div class="row">
                     <div class="col-lg-4 col-md-6">
                         <div class="team-card">
                             <div class="team-img-container">
-                                <img src="<%= ResolveUrl("~/Content/src/Images/team member.jpg") %>" class="team-img" alt="Team Member 1" />
+                                <img src="<%= resolveurl("~/content/src/images/team member.jpg") %>" class="team-img" alt="team member 1" />
                                 <div class="team-overlay">
-                                    <h3 class="team-name">Sarah Johnson</h3>
-                                    <p class="team-position">Lead Software Architect</p>
+                                    <h3 class="team-name">sarah johnson</h3>
+                                    <p class="team-position">lead software architect</p>
                                     <div class="team-social">
                                         <a href="#" class="team-social-icon"><i class="fab fa-linkedin-in"></i></a>
                                         <a href="#" class="team-social-icon"><i class="fab fa-github"></i></a>
@@ -336,12 +336,12 @@
                                 </div>
                             </div>
                             <div class="team-bio">
-                                <p>With over 10 years of experience in enterprise software development, Sarah leads our architecture team and ensures that our solutions are robust, scalable, and future-proof.</p>
+                                <p>with over 10 years of experience in enterprise software development, sarah leads our architecture team and ensures that our solutions are robust, scalable, and future-proof.</p>
                                 <div class="team-skills">
-                                    <span class="team-skill">ASP.NET</span>
-                                    <span class="team-skill">Architecture</span>
-                                    <span class="team-skill">Azure</span>
-                                    <span class="team-skill">Microservices</span>
+                                    <span class="team-skill">asp.net</span>
+                                    <span class="team-skill">architecture</span>
+                                    <span class="team-skill">azure</span>
+                                    <span class="team-skill">microservices</span>
                                 </div>
                             </div>
                         </div>
@@ -349,10 +349,10 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="team-card">
                             <div class="team-img-container">
-                                <img src="<%= ResolveUrl("~/Content/src/Images/team member.jpg") %>" class="team-img" alt="Team Member 2" />
+                                <img src="<%= resolveurl("~/content/src/images/team member.jpg") %>" class="team-img" alt="team member 2" />
                                 <div class="team-overlay">
-                                    <h3 class="team-name">David Chen</h3>
-                                    <p class="team-position">Frontend Development Lead</p>
+                                    <h3 class="team-name">david chen</h3>
+                                    <p class="team-position">frontend development lead</p>
                                     <div class="team-social">
                                         <a href="#" class="team-social-icon"><i class="fab fa-linkedin-in"></i></a>
                                         <a href="#" class="team-social-icon"><i class="fab fa-github"></i></a>
@@ -361,12 +361,12 @@
                                 </div>
                             </div>
                             <div class="team-bio">
-                                <p>David has an eye for design and a passion for creating intuitive user experiences. He leads our frontend team, combining aesthetic appeal with technical excellence in every project.</p>
+                                <p>david has an eye for design and a passion for creating intuitive user experiences. he leads our frontend team, combining aesthetic appeal with technical excellence in every project.</p>
                                 <div class="team-skills">
-                                    <span class="team-skill">React</span>
-                                    <span class="team-skill">Angular</span>
-                                    <span class="team-skill">UX Design</span>
-                                    <span class="team-skill">CSS/SCSS</span>
+                                    <span class="team-skill">react</span>
+                                    <span class="team-skill">angular</span>
+                                    <span class="team-skill">ux design</span>
+                                    <span class="team-skill">css/scss</span>
                                 </div>
                             </div>
                         </div>
@@ -374,10 +374,10 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="team-card">
                             <div class="team-img-container">
-                                <img src="<%= ResolveUrl("~/Content/src/Images/team member.jpg") %>" class="team-img" alt="Team Member 3" />
+                                <img src="<%= resolveurl("~/content/src/images/team member.jpg") %>" class="team-img" alt="team member 3" />
                                 <div class="team-overlay">
-                                    <h3 class="team-name">Michelle Rodriguez</h3>
-                                    <p class="team-position">Database Specialist</p>
+                                    <h3 class="team-name">michelle rodriguez</h3>
+                                    <p class="team-position">database specialist</p>
                                     <div class="team-social">
                                         <a href="#" class="team-social-icon"><i class="fab fa-linkedin-in"></i></a>
                                         <a href="#" class="team-social-icon"><i class="fab fa-github"></i></a>
@@ -386,12 +386,12 @@
                                 </div>
                             </div>
                             <div class="team-bio">
-                                <p>Michelle is our database guru, optimizing performance and ensuring data integrity across all our applications. Her expertise in database design and optimization is unmatched.</p>
+                                <p>michelle is our database guru, optimizing performance and ensuring data integrity across all our applications. her expertise in database design and optimization is unmatched.</p>
                                 <div class="team-skills">
-                                    <span class="team-skill">SQL Server</span>
-                                    <span class="team-skill">PostgreSQL</span>
-                                    <span class="team-skill">MongoDB</span>
-                                    <span class="team-skill">Data Modeling</span>
+                                    <span class="team-skill">sql server</span>
+                                    <span class="team-skill">postgresql</span>
+                                    <span class="team-skill">mongodb</span>
+                                    <span class="team-skill">data modeling</span>
                                 </div>
                             </div>
                         </div>
@@ -399,10 +399,10 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="team-card">
                             <div class="team-img-container">
-                                <img src="<%= ResolveUrl("~/Content/src/Images/team member.jpg") %>" class="team-img" alt="Team Member 4" />
+                                <img src="<%= resolveurl("~/content/src/images/team member.jpg") %>" class="team-img" alt="team member 4" />
                                 <div class="team-overlay">
-                                    <h3 class="team-name">James Wilson</h3>
-                                    <p class="team-position">DevOps Engineer</p>
+                                    <h3 class="team-name">james wilson</h3>
+                                    <p class="team-position">devops engineer</p>
                                     <div class="team-social">
                                         <a href="#" class="team-social-icon"><i class="fab fa-linkedin-in"></i></a>
                                         <a href="#" class="team-social-icon"><i class="fab fa-github"></i></a>
@@ -411,12 +411,12 @@
                                 </div>
                             </div>
                             <div class="team-bio">
-                                <p>James is responsible for our continuous integration and deployment pipelines. He ensures that our code smoothly transitions from development to production environments.</p>
+                                <p>james is responsible for our continuous integration and deployment pipelines. he ensures that our code smoothly transitions from development to production environments.</p>
                                 <div class="team-skills">
-                                    <span class="team-skill">CI/CD</span>
-                                    <span class="team-skill">Docker</span>
-                                    <span class="team-skill">Kubernetes</span>
-                                    <span class="team-skill">Azure DevOps</span>
+                                    <span class="team-skill">ci/cd</span>
+                                    <span class="team-skill">docker</span>
+                                    <span class="team-skill">kubernetes</span>
+                                    <span class="team-skill">azure devops</span>
                                 </div>
                             </div>
                         </div>
@@ -424,10 +424,10 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="team-card">
                             <div class="team-img-container">
-                                <img src="<%= ResolveUrl("~/Content/src/Images/team member.jpg") %>" class="team-img" alt="Team Member 5" />
+                                <img src="<%= resolveurl("~/content/src/images/team member.jpg") %>" class="team-img" alt="team member 5" />
                                 <div class="team-overlay">
-                                    <h3 class="team-name">Aisha Patel</h3>
-                                    <p class="team-position">QA Lead</p>
+                                    <h3 class="team-name">aisha patel</h3>
+                                    <p class="team-position">qa lead</p>
                                     <div class="team-social">
                                         <a href="#" class="team-social-icon"><i class="fab fa-linkedin-in"></i></a>
                                         <a href="#" class="team-social-icon"><i class="fab fa-github"></i></a>
@@ -436,11 +436,11 @@
                                 </div>
                             </div>
                             <div class="team-bio">
-                                <p>Aisha leads our quality assurance team, implementing rigorous testing methodologies that ensure our software meets the highest standards of reliability and performance.</p>
+                                <p>aisha leads our quality assurance team, implementing rigorous testing methodologies that ensure our software meets the highest standards of reliability and performance.</p>
                                 <div class="team-skills">
-                                    <span class="team-skill">Selenium</span>
-                                    <span class="team-skill">Test Automation</span>
-                                    <span class="team-skill">JIRA</span>
+                                    <span class="team-skill">selenium</span>
+                                    <span class="team-skill">test automation</span>
+                                    <span class="team-skill">jira</span>
                                 </div>
                             </div>
                         </div>
@@ -448,10 +448,10 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="team-card">
                             <div class="team-img-container">
-                                <img src="<%= ResolveUrl("~/Content/src/Images/team member.jpg") %>" class="team-img" alt="Team Member 6" />
+                                <img src="<%= resolveurl("~/content/src/images/team member.jpg") %>" class="team-img" alt="team member 6" />
                                 <div class="team-overlay">
-                                    <h3 class="team-name">Robert Kim</h3>
-                                    <p class="team-position">Security Specialist</p>
+                                    <h3 class="team-name">robert kim</h3>
+                                    <p class="team-position">security specialist</p>
                                     <div class="team-social">
                                         <a href="#" class="team-social-icon"><i class="fab fa-linkedin-in"></i></a>
                                         <a href="#" class="team-social-icon"><i class="fab fa-github"></i></a>
@@ -460,11 +460,11 @@
                                 </div>
                             </div>
                             <div class="team-bio">
-                                <p>Robert specializes in application security and ensures that all our solutions meet the highest security standards and comply with relevant regulations and industry best practices.</p>
+                                <p>robert specializes in application security and ensures that all our solutions meet the highest security standards and comply with relevant regulations and industry best practices.</p>
                                 <div class="team-skills">
-                                    <span class="team-skill">Penetration Testing</span>
-                                    <span class="team-skill">OWASP</span>
-                                    <span class="team-skill">Encryption</span>
+                                    <span class="team-skill">penetration testing</span>
+                                    <span class="team-skill">owasp</span>
+                                    <span class="team-skill">encryption</span>
                                 </div>
                             </div>
                         </div>
@@ -474,7 +474,7 @@
         </section>
 
         <!-- 6. Technologies Section -->
-        <section id="technologies" class="tech-section">
+        <%--<section id="technologies" class="tech-section">
             <div class="container py-5">
                 <div class="text-center mb-5">
                     <h2 class="fw-bold mb-3">Our Tech Stack</h2>
